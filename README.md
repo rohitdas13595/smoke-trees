@@ -13,7 +13,11 @@ Store environment variables in .env.local file
 
 # Database
 databaseName: users
+```
+create database users;
+```
 ### Tables
+
 ```
     -- users.users definition
 
@@ -51,21 +55,33 @@ CREATE TABLE `addresses` (
 
 
 
+
+
 # Output
+#### Fill The Mobile Number
 ![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/landing.png)
 ---
+#### Fill the Name If Not There
 ![pic2](https://github.com/rohitdas13595/smoke-trees/blob/main/output/1.png)
 ---
+#### No Data
 ![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/2.png)
 ---
+#### Address Form
 ![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/3.png)
 ---
+#### Address Form Filled
 ![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/4.png)
 ---
+#### Address Visible
 ![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/5.png)
 ---
+#### Delete Address
 ![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/6.png)
 ---
+#### Address Deleted
 ![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/7.png)
 ---
+
+
 

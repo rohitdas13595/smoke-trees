@@ -1,0 +1,129 @@
+.container{
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    
+}
+
+.container > input{
+    height: 3rem;
+    border-color: aqua;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: x-large;
+    letter-spacing: 15px;
+}
+
+.container > button{
+    height: 3rem;
+    width: fit-content;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-color: aqua;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: x-large;
+    letter-spacing: 5px;
+}
+
+.container > label{
+    font-size: larger;
+    margin: 0;
+}
+.banner{
+    background: white;
+    width: 90%;
+    border-radius: 1rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+
+.banner>p{
+    margin: 5px;
+}
+
+.card{
+    display: flex;
+    width: 20em;
+    min-width: 10em;
+    align-items: flex-start;
+    background: white;
+    border-radius: 1rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+.card>p{
+    margin: 10px;
+}
+.card >div>button{
+    border-radius: 10px;
+    color: red;
+    border-color: aqua;
+    height: 30px;
+}
+.cards{
+    margin-top: 2rem;
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.noData{
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 90%;
+    border-radius: 1rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    min-width: 300px;
+    margin-top: 2rem;
+}
+.addAddress{
+    align-self: flex-end;
+}
+
+.addAddress > button{
+    color: black;
+    display: flex;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: blue;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.addressForm{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.addressForm > input{
+    height: 30px;
+    border-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pincode{
+    width: 50%;
+}

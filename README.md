@@ -11,6 +11,46 @@ yarn dev
 ```
 Store environment variables in .env.local file
 
+# Database
+databaseName: users
+### Tables
+```
+    -- users.users definition
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET latin1 DEFAULT NULL,
+  `mobile` varchar(10) CHARACTER SET latin1 DEFAULT NULL,
+  `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `mobile` (`mobile`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
+```
+
+```
+-- users.addresses definition
+
+CREATE TABLE `addresses` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) DEFAULT NULL,
+  `address1` text,
+  `address2` text,
+  `address3` text,
+  `city` text,
+  `state` text,
+  `pincode` int(11) DEFAULT NULL,
+  `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`),
+  CONSTRAINT `addresses_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+```
+
+
+
+
 # Output
 ![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/landing.png)
 ---

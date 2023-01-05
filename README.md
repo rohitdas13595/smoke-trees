@@ -12,12 +12,20 @@ yarn dev
 Store environment variables in .env.local file
 
 # Output
-![pic1](https://github.com/rohitdas13595/SampleReactApp/blob/master/output/images/pic1.png)
+![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/landing.png)
 ---
-![pic2](https://github.com/rohitdas13595/SampleReactApp/blob/master/public/images/pic2.png)
+![pic2](https://github.com/rohitdas13595/smoke-trees/blob/main/output/1.png)
 ---
-![pic1](https://github.com/rohitdas13595/SampleReactApp/blob/master/public/images/pic3.png)
+![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/2.png)
 ---
-![pic1](https://github.com/rohitdas13595/SampleReactApp/blob/master/public/images/pic4.png)
+![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/3.png)
+---
+![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/4.png)
+---
+![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/5.png)
+---
+![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/6.png)
+---
+![pic1](https://github.com/rohitdas13595/smoke-trees/blob/main/output/7.png)
 ---
 
